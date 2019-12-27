@@ -1,0 +1,177 @@
+button.btn.btn-danger.propertyBtn{
+	cursor: pointer;
+}
+button.btn.btn-danger.propertyBtn:hover{
+	background: #0098ef;
+	border-color: #0098ef;
+}
+
+.advertise{
+	
+}
+.adbox{
+	height: 50%;
+	width: 80%;
+	margin:auto;
+	padding: 20px;
+}
+.adbox img{
+	height: 70%;
+	width: 100%;
+}
+
+.leftmenu{
+	margin:10% 0;
+	padding:10px;
+	background: black;
+}
+.homes-price.homes-gender{
+	left: 65%;
+    background: #28a745;
+    max-width: 32%;
+}
+.pretty .state label{
+	margin-top: -6px !important;
+}
+.singleProperty h3{
+	border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 25px;
+    color: #0098ef;
+    text-transform: capitalize;
+}
+.rightmenu{
+	padding:10px;
+	min-height: 500px;
+}
+.inner-pages .blog .block-heading.details h3{
+	color:#0098ef;
+}
+.inner-pages .blog .block-heading.details h6{
+	color:black;
+	font-weight: 700;
+}
+button.btn.btn-primary.updateBtn{
+	width:15%;
+	margin:auto;
+}
+
+.leftmenu .profileimg{
+	height: 180px;
+	width:180px;
+	padding: 10px;
+	margin:auto;
+}
+.leftmenu .profileimg img{
+	height: 100%;
+	width:100%;
+	border-radius: 50%;
+}
+.sidebar {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+.table-bordered{
+	border:none;
+
+}
+.table-bordered th{
+	border:1px solid #fff;
+	background: #0098ef;
+	color:#fff;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #0098ef;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.property_category {
+    width: auto;
+    background: #007bff;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+}
+.property_category p{
+	border-top:1px solid;
+}
+
+.hidden-xs-up {
+  display: none !important; }
+
+@media (max-width: 575px) {
+  .hidden-xs-down {
+    display: none !important; } }
+
+@media (min-width: 576px) {
+  .hidden-sm-up {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important; } }
+
+@media (min-width: 768px) {
+  .hidden-md-up {
+    display: none !important; } }
+
+@media (max-width: 991px) {
+  .hidden-md-down {
+    display: none !important; } }
+
+@media (min-width: 992px) {
+  .hidden-lg-up {
+    display: none !important; } }
+
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  .hidden-xl-up {
+    display: none !important; } }
+
+.hidden-xl-down {
+  display: none !important; }
